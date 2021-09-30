@@ -47,7 +47,7 @@ channels==0.17.3
 cliff==2.7.0              # via osc-lib, python-designateclient, python-neutronclient, python-openstackclient
 cmd2==0.7.2               # via cliff
 constantly==15.1.0        # via twisted
-cryptography==1.9         # via adal, azure-storage, pyopenssl, secretstorage, twilio
+cryptography==3.2         # via adal, azure-storage, pyopenssl, secretstorage, twilio
 daphne==0.15.0
 debtcollector==1.15.0     # via oslo.config, oslo.utils, python-designateclient, python-keystoneclient, python-neutronclient
 decorator==4.0.11         # via shade
