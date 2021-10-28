@@ -107,7 +107,7 @@
     "d3": "~3.3.13",
     "javascript-detect-element-resize": "^0.5.3",
     "jquery": "~2.2.4",
-    "jquery-ui": "~1.10.5",
+    "jquery-ui": "~1.13.0",
     "js-yaml": "^3.2.7",
     "legacy-loader": "0.0.2",
     "lodash": "~3.8.0",
