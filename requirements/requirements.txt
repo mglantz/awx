@@ -13,7 +13,7 @@ asgi-amqp==0.4.1
 asgiref==1.0.1
 asn1crypto==0.22.0        # via cryptography
 attrs==17.2.0             # via service-identity
-autobahn==17.6.1          # via daphne
+autobahn==20.12.3          # via daphne
 azure-batch==1.0.0        # via azure
 azure-common[autorest]==1.1.4  # via azure-batch, azure-mgmt-batch, azure-mgmt-compute, azure-mgmt-keyvault, azure-mgmt-logic, azure-mgmt-network, azure-mgmt-redis, azure-mgmt-resource, azure-mgmt-scheduler, azure-mgmt-storage, azure-servicebus, azure-servicemanagement-legacy, azure-storage
 azure-mgmt-batch==1.0.0   # via azure-mgmt
@@ -32,18 +32,18 @@ azure-servicebus==0.20.3  # via azure
 azure-servicemanagement-legacy==0.20.4  # via azure
 azure-storage==0.33.0     # via azure
 azure==2.0.0rc6
-babel==2.3.4              # via osc-lib, oslo.i18n, python-cinderclient, python-glanceclient, python-neutronclient, python-novaclient, python-openstackclient
+babel==2.9.1              # via osc-lib, oslo.i18n, python-cinderclient, python-glanceclient, python-neutronclient, python-novaclient, python-openstackclient
 backports.functools-lru-cache==1.4  # via jaraco.functools
 backports.ssl-match-hostname==3.5.0.1
 baron==0.6.6              # via redbaron
 billiard==3.3.0.23        # via celery
-boto3==1.4.4
+boto3==1.4.5
 boto==2.46.1
 botocore==1.5.72          # via boto3, s3transfer
 celery==3.1.17
 #certifi==2017.4.17        # via msrest
 cffi==1.10.0              # via cryptography
-channels==0.17.3
+channels==2.1.7
 cliff==2.7.0              # via osc-lib, python-designateclient, python-neutronclient, python-openstackclient
 cmd2==0.7.2               # via cliff
 constantly==15.1.0        # via twisted
@@ -65,9 +65,9 @@ django-solo==1.1.2
 django-split-settings==0.2.5
 django-taggit==0.22.1
 django-transaction-hooks==0.2
-django==1.8.16            # via channels, django-auth-ldap, django-crum, django-split-settings, django-transaction-hooks
+django==2.2.24            # via channels, django-auth-ldap, django-crum, django-split-settings, django-transaction-hooks
 djangorestframework-yaml==1.0.3
-djangorestframework==3.3.3
+djangorestframework==3.11.2
 #docutils==0.12            # via botocore
 dogpile.cache==0.6.3      # via python-ironicclient, shade
 enum34==1.1.6             # via cryptography, msrest
@@ -99,7 +99,7 @@ jsonschema==2.6.0
 keyring==10.3.3           # via msrestazure
 keystoneauth1==2.21.0     # via openstacksdk, os-client-config, osc-lib, python-cinderclient, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-novaclient, python-openstackclient, shade
 kombu==3.0.35             # via asgi-amqp, celery
-lxml==3.8.0               # via pyvmomi
+lxml==4.6.3               # via pyvmomi
 m2crypto==0.25.1
 markdown==2.6.7
 monotonic==1.3            # via oslo.utils
@@ -125,7 +125,7 @@ pexpect==4.2.1
 positional==1.1.1         # via keystoneauth1, python-keystoneclient
 prettytable==0.7.2        # via cliff, python-cinderclient, python-glanceclient, python-ironicclient, python-novaclient
 psphere==0.5.2
-psutil==5.2.2
+psutil==5.6.7
 psycopg2==2.7.1
 ptyprocess==0.5.1         # via pexpect
 pyasn1-modules==0.0.9     # via service-identity
@@ -133,8 +133,8 @@ pyasn1==0.2.3             # via pyasn1-modules, service-identity
 pycparser==2.17           # via cffi
 pycrypto==2.6.1
 pygerduty==0.35.2
-pyjwt==1.5.0              # via adal, python-social-auth, twilio
-pyopenssl==17.0.0         # via pyvmomi, service-identity, twilio
+pyjwt==1.5.1              # via adal, python-social-auth, twilio
+pyopenssl==17.5.0         # via pyvmomi, service-identity, twilio
 pyparsing==2.2.0
 pyrad==2.1                # via django-radius
 python-cinderclient==2.2.0  # via python-openstackclient, shade
@@ -151,15 +151,15 @@ python-novaclient==9.0.1  # via python-openstackclient, shade
 python-openid==2.2.5      # via python-social-auth
 python-openstackclient==3.11.0  # via python-ironicclient
 python-radius==1.0
-python-saml==2.2.1
+python-saml==2.5.0
 python-social-auth==0.2.21
 pytz==2017.2              # via babel, celery, irc, oslo.serialization, oslo.utils, tempora, twilio
 pyvmomi==6.5
-pyyaml==3.12              # via cliff, djangorestframework-yaml, os-client-config, oslo.config, psphere, python-ironicclient
+pyyaml==5.4              # via cliff, djangorestframework-yaml, os-client-config, oslo.config, psphere, python-ironicclient
 redbaron==0.6.3
 requests-futures==0.9.7
 requests-oauthlib==0.8.0  # via msrest, python-social-auth
-requests==2.14.2          # via adal, apache-libcloud, azure-servicebus, azure-servicemanagement-legacy, azure-storage, keystoneauth1, msrest, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-social-auth, pyvmomi, requests-futures, requests-oauthlib, slackclient, twilio
+requests==2.20          # via adal, apache-libcloud, azure-servicebus, azure-servicemanagement-legacy, azure-storage, keystoneauth1, msrest, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-social-auth, pyvmomi, requests-futures, requests-oauthlib, slackclient, twilio
 requestsexceptions==1.2.0  # via os-client-config, shade
 rfc3986==1.0.0            # via oslo.config
 rply==0.7.4               # via baron
