@@ -118,7 +118,7 @@ osc-lib==1.6.0            # via python-designateclient, python-ironicclient, pyt
 oslo.config==4.6.0        # via python-keystoneclient
 oslo.i18n==3.15.3         # via osc-lib, oslo.config, oslo.utils, python-cinderclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-novaclient, python-openstackclient
 oslo.serialization==2.18.0  # via python-ironicclient, python-keystoneclient, python-neutronclient, python-novaclient
-oslo.utils==3.26.0        # via osc-lib, oslo.serialization, python-cinderclient, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-novaclient, python-openstackclient
+oslo.utils==4.8.1        # via osc-lib, oslo.serialization, python-cinderclient, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-novaclient, python-openstackclient
 packaging==16.8           # via setuptools
 pbr==3.1.1                # via cliff, debtcollector, keystoneauth1, openstacksdk, osc-lib, oslo.i18n, oslo.serialization, oslo.utils, positional, python-cinderclient, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-novaclient, python-openstackclient, requestsexceptions, shade, stevedore
 pexpect==4.2.1
