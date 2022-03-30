@@ -179,7 +179,7 @@ twisted==16.6.0
 txaio==2.8.0              # via autobahn
 typing==3.6.1             # via m2crypto
 unicodecsv==0.14.1        # via cliff
-uwsgi==2.0.14
+uwsgi==2.0.17
 warlock==1.2.0            # via python-glanceclient
 websocket-client==0.44.0  # via slackclient
 wrapt==1.10.10            # via debtcollector, positional, python-glanceclient
