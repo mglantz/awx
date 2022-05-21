@@ -133,7 +133,7 @@ pyasn1==0.2.3             # via pyasn1-modules, service-identity
 pycparser==2.17           # via cffi
 pycrypto==2.6.1
 pygerduty==0.35.2
-pyjwt==1.5.0              # via adal, python-social-auth, twilio
+pyjwt==2.4.0              # via adal, python-social-auth, twilio
 pyopenssl==17.0.0         # via pyvmomi, service-identity, twilio
 pyparsing==2.2.0
 pyrad==2.1                # via django-radius
