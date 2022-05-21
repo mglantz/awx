@@ -83,7 +83,7 @@ prettytable==0.7.2        # via cliff, python-cinderclient, python-glanceclient,
 psphere==0.5.2
 psutil==5.2.2
 pycparser==2.17           # via cffi
-pyjwt==1.5.0              # via adal
+pyjwt==2.4.0              # via adal
 pykerberos==1.1.14        # via requests-kerberos
 pyopenssl==17.0.0         # via pyvmomi
 pyparsing==2.2.0          # via cliff, cmd2, oslo.utils, packaging
