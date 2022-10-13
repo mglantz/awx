@@ -37,7 +37,7 @@ certifi==2017.4.17        # via msrest
 cffi==1.10.0              # via cryptography
 cliff==2.7.0              # via osc-lib, python-designateclient, python-neutronclient, python-openstackclient
 cmd2==0.7.2               # via cliff
-cryptography==1.9         # via adal, azure-storage, pyopenssl, secretstorage
+cryptography==3.2         # via adal, azure-storage, pyopenssl, secretstorage
 debtcollector==1.15.0     # via oslo.config, oslo.utils, python-designateclient, python-keystoneclient, python-neutronclient
 decorator==4.0.11         # via shade
 deprecation==1.0.1        # via openstacksdk
@@ -100,11 +100,11 @@ python-openstackclient==3.11.0  # via python-ironicclient
 pytz==2017.2              # via babel, oslo.serialization, oslo.utils
 pyvmomi==6.5
 pywinrm[kerberos]==0.2.2
-pyyaml==3.12              # via cliff, os-client-config, oslo.config, psphere, python-ironicclient
+pyyaml==5.4              # via cliff, os-client-config, oslo.config, psphere, python-ironicclient
 requests-kerberos==0.11.0  # via pywinrm
 requests-ntlm==1.0.0      # via pywinrm
 requests-oauthlib==0.8.0  # via msrest
-requests==2.14.2          # via adal, apache-libcloud, azure-servicebus, azure-servicemanagement-legacy, azure-storage, keystoneauth1, msrest, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, pyvmomi, pywinrm, requests-kerberos, requests-ntlm, requests-oauthlib
+requests==2.20          # via adal, apache-libcloud, azure-servicebus, azure-servicemanagement-legacy, azure-storage, keystoneauth1, msrest, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, pyvmomi, pywinrm, requests-kerberos, requests-ntlm, requests-oauthlib
 requestsexceptions==1.2.0  # via os-client-config, shade
 rfc3986==1.0.0            # via oslo.config
 s3transfer==0.1.10        # via boto3
