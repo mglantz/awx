@@ -37,7 +37,7 @@ certifi==2017.4.17        # via msrest
 cffi==1.10.0              # via cryptography
 cliff==2.7.0              # via osc-lib, python-designateclient, python-neutronclient, python-openstackclient
 cmd2==0.7.2               # via cliff
-cryptography==1.9         # via adal, azure-storage, pyopenssl, secretstorage
+cryptography==3.2         # via adal, azure-storage, pyopenssl, secretstorage
 debtcollector==1.15.0     # via oslo.config, oslo.utils, python-designateclient, python-keystoneclient, python-neutronclient
 decorator==4.0.11         # via shade
 deprecation==1.0.1        # via openstacksdk
@@ -81,7 +81,7 @@ pbr==3.1.1                # via cliff, debtcollector, keystoneauth1, openstacksd
 positional==1.1.1         # via keystoneauth1, python-keystoneclient
 prettytable==0.7.2        # via cliff, python-cinderclient, python-glanceclient, python-ironicclient, python-novaclient
 psphere==0.5.2
-psutil==5.2.2
+psutil==5.6.7
 pycparser==2.17           # via cffi
 pyjwt==1.5.0              # via adal
 pykerberos==1.1.14        # via requests-kerberos
@@ -100,7 +100,7 @@ python-openstackclient==3.11.0  # via python-ironicclient
 pytz==2017.2              # via babel, oslo.serialization, oslo.utils
 pyvmomi==6.5
 pywinrm[kerberos]==0.2.2
-pyyaml==3.12              # via cliff, os-client-config, oslo.config, psphere, python-ironicclient
+pyyaml==5.4              # via cliff, os-client-config, oslo.config, psphere, python-ironicclient
 requests-kerberos==0.11.0  # via pywinrm
 requests-ntlm==1.0.0      # via pywinrm
 requests-oauthlib==0.8.0  # via msrest
