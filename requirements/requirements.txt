@@ -32,7 +32,7 @@ azure-servicebus==0.20.3  # via azure
 azure-servicemanagement-legacy==0.20.4  # via azure
 azure-storage==0.33.0     # via azure
 azure==2.0.0rc6
-babel==2.3.4              # via osc-lib, oslo.i18n, python-cinderclient, python-glanceclient, python-neutronclient, python-novaclient, python-openstackclient
+babel==2.9.1              # via osc-lib, oslo.i18n, python-cinderclient, python-glanceclient, python-neutronclient, python-novaclient, python-openstackclient
 backports.functools-lru-cache==1.4  # via jaraco.functools
 backports.ssl-match-hostname==3.5.0.1
 baron==0.6.6              # via redbaron
@@ -118,7 +118,7 @@ osc-lib==1.6.0            # via python-designateclient, python-ironicclient, pyt
 oslo.config==4.6.0        # via python-keystoneclient
 oslo.i18n==3.15.3         # via osc-lib, oslo.config, oslo.utils, python-cinderclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-novaclient, python-openstackclient
 oslo.serialization==2.18.0  # via python-ironicclient, python-keystoneclient, python-neutronclient, python-novaclient
-oslo.utils==3.26.0        # via osc-lib, oslo.serialization, python-cinderclient, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-novaclient, python-openstackclient
+oslo.utils==4.8.1        # via osc-lib, oslo.serialization, python-cinderclient, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-novaclient, python-openstackclient
 packaging==16.8           # via setuptools
 pbr==3.1.1                # via cliff, debtcollector, keystoneauth1, openstacksdk, osc-lib, oslo.i18n, oslo.serialization, oslo.utils, positional, python-cinderclient, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-novaclient, python-openstackclient, requestsexceptions, shade, stevedore
 pexpect==4.2.1
@@ -151,15 +151,15 @@ python-novaclient==9.0.1  # via python-openstackclient, shade
 python-openid==2.2.5      # via python-social-auth
 python-openstackclient==3.11.0  # via python-ironicclient
 python-radius==1.0
-python-saml==2.2.1
+python-saml==2.5.0
 python-social-auth==0.2.21
 pytz==2017.2              # via babel, celery, irc, oslo.serialization, oslo.utils, tempora, twilio
 pyvmomi==6.5
-pyyaml==3.12              # via cliff, djangorestframework-yaml, os-client-config, oslo.config, psphere, python-ironicclient
+pyyaml==5.4              # via cliff, djangorestframework-yaml, os-client-config, oslo.config, psphere, python-ironicclient
 redbaron==0.6.3
 requests-futures==0.9.7
 requests-oauthlib==0.8.0  # via msrest, python-social-auth
-requests==2.14.2          # via adal, apache-libcloud, azure-servicebus, azure-servicemanagement-legacy, azure-storage, keystoneauth1, msrest, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-social-auth, pyvmomi, requests-futures, requests-oauthlib, slackclient, twilio
+requests==2.20          # via adal, apache-libcloud, azure-servicebus, azure-servicemanagement-legacy, azure-storage, keystoneauth1, msrest, python-designateclient, python-glanceclient, python-ironicclient, python-keystoneclient, python-neutronclient, python-social-auth, pyvmomi, requests-futures, requests-oauthlib, slackclient, twilio
 requestsexceptions==1.2.0  # via os-client-config, shade
 rfc3986==1.0.0            # via oslo.config
 rply==0.7.4               # via baron
