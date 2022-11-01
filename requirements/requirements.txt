@@ -155,7 +155,7 @@ python-saml==2.2.1
 python-social-auth==0.2.21
 pytz==2017.2              # via babel, celery, irc, oslo.serialization, oslo.utils, tempora, twilio
 pyvmomi==6.5
-pyyaml==3.12              # via cliff, djangorestframework-yaml, os-client-config, oslo.config, psphere, python-ironicclient
+pyyaml==5.4              # via cliff, djangorestframework-yaml, os-client-config, oslo.config, psphere, python-ironicclient
 redbaron==0.6.3
 requests-futures==0.9.7
 requests-oauthlib==0.8.0  # via msrest, python-social-auth
