@@ -100,7 +100,7 @@ python-openstackclient==3.11.0  # via python-ironicclient
 pytz==2017.2              # via babel, oslo.serialization, oslo.utils
 pyvmomi==6.5
 pywinrm[kerberos]==0.2.2
-pyyaml==3.12              # via cliff, os-client-config, oslo.config, psphere, python-ironicclient
+pyyaml==5.4              # via cliff, os-client-config, oslo.config, psphere, python-ironicclient
 requests-kerberos==0.11.0  # via pywinrm
 requests-ntlm==1.0.0      # via pywinrm
 requests-oauthlib==0.8.0  # via msrest
@@ -121,4 +121,4 @@ xmltodict==0.11.0         # via pywinrm
 
 # The following packages are considered to be unsafe in a requirements file:
 pip==9.0.1
-setuptools==36.0.1
+setuptools==65.5.1
